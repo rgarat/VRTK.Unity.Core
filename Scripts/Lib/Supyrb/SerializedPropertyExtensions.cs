@@ -8,6 +8,7 @@
 // </author>
 // --------------------------------------------------------------------------------------------------------------------
 
+#if UNITY_EDITOR
 namespace VRTK.Core.Lib.Supyrb
 {
     using System;
@@ -184,3 +185,5 @@ namespace VRTK.Core.Lib.Supyrb
         }
     }
 }
+
+#endif
